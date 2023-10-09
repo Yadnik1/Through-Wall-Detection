@@ -58,7 +58,6 @@ Let a particular “range sector (±70⁰) be divided into 14 sections of 10 deg
 
 The in-depth mathematical framework involves the use of Path matrices, Reflectivity matrices, and received signal matrices. The core problem revolves around given a received signal matrix \(X\), how to determine the Reflectivity matrix \(B\). The solution to this is derived using Singular Value Decomposition (SVD) technique and other matrix operations.
 
-For a more detailed understanding and the mathematical derivations, one should refer to the detailed project documentation.
 
 ## Getting Started
 
