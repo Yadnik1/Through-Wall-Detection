@@ -18,32 +18,40 @@ This project focuses on implementing a UWB Radar system for imaging to obtain el
 
 1. **TWD-UWB radar operation**: The radar transmits a narrow RF pulse and samples echoes from different receiver terminals sequentially.
 2. **Pulse width**: A pulse width of 700ps is planned. The pulse isn't rectangular but is similar to a wavelet.
-3. **Effective sampling rate**: Planned effective sampling rate is 250ps (4 GSPS). It ensures that the echo isn't missed due to inappropriate sampling. 
+3. **Effective sampling rate**: Planned effective sampling rate is 250ps (4 GSPS). It ensures that the echo isn't missed due to inappropriate sampling.
 4. **Accurate phase measurement**: Cross range target positioning accuracy is dependent on accurate phase measurement.
 
-
 ## Python Implementation & Visualization
+
+### Correlated Data Visualization
+![Correlated Data Visualization](https://github.com/Yadnik1/Through-Wall-Detection/blob/main/images/Correlated%20Data.PNG?raw=true)
 
 The Python codebase provided serves two primary functions:
 
 1. **Algorithm Implementation**: The UWB radar system's operations and pulse transmissions are algorithmically simulated. This ensures accurate detection and localization of targets behind walls.
-
    
 2. **Data Visualization**:
-   - **Reflectivity Plots**: These plots display the reflection strength from different points. In through-wall detection, it helps in identifying the presence of objects or individuals by highlighting areas with high reflectivity.
+   - **Reflectivity Plots**: These plots display the reflection strength from different points. 
+   ![Reflectivity Plot](https://github.com/Yadnik1/Through-Wall-Detection/blob/main/images/Reflectivity%20Plot.PNG?raw=true)
+   
    - **Intensity Plots**: These represent the magnitude of the detected signals. Intense spots indicate potential target locations behind the wall.
-   - **Polar Plots**: Polar plots provide a visual representation in polar coordinates. In through-wall detection, they help in understanding the target's angle of arrival and its relative distance from the radar system.
+   ![Intensity Data](https://github.com/Yadnik1/Through-Wall-Detection/blob/main/images/Intensity%20data.PNG?raw=true)
+   
+   - **Heat Map**: Heat maps provide a graphical representation of data where values are depicted by colors. It helps in quickly spotting areas of interest.
+   ![Heat Map](https://github.com/Yadnik1/Through-Wall-Detection/blob/main/images/Heat%20Map.PNG?raw=true)
 
-These visualizations assist researchers and users in comprehending the system's findings and fine-tuning the radar for optimal performance.
+### GUI Representation
+![GUI Representation](https://github.com/Yadnik1/Through-Wall-Detection/blob/main/images/GUI.PNG?raw=true)
+
+### File Selection Interface
+![Select File Interface](https://github.com/Yadnik1/Through-Wall-Detection/blob/main/images/Select%20file.PNG?raw=true)
 
 ## Getting Started
 
-1. Please clone the Repository
-2. Run the main.py file
-3. In the GUI please select the InputData - 29Mar20223a file
-4. Proceed by clicking on Process Data 
+*Here you might want to add steps on how to run the python code, any dependencies required, and other setup-related information.*
 
 ## Conclusion
 
-The UWB through-wall radar system holds significant potential for real-world applications. With the Python-based simulation and visualization tools provided, users can delve deep into its functionalities and improve upon its current capabilities.
+The UWB through-wall radar system holds significant potential for real-world applications, especially in defense sectors.
 
+*Feel free to add sections on contributions, authors, acknowledgements, etc. as per your project's needs.*
