@@ -2,27 +2,20 @@
 
 Through-wall radar systems have grown immensely popular due to their potential applications in military and civil sectors. These systems aim to detect objects, especially humans, present inside rooms or structures, shielded by walls.
 
-## Project Overview
+## Getting Started
 
-This project focuses on implementing a UWB Radar system for imaging to obtain electromagnetic images from behind or through walls. The technique provides an electromagnetic "vision" behind walls to detect, count, and localize individuals inside a room or building.
+1. Please clone the Repository.
+2. Run the `main.py` file.
+3. In the GUI, please select the `InputData - 29Mar20223a` file.
+4. Proceed by clicking on "Process Data".
 
-### Key Objectives:
+## Mathematical Formulation
 
-- Achieve higher range measurement accuracy and range resolution.
-- Recognize the type of targets and generate radar images.
-- Minimize the effects of passive interferences like rain and fog.
-- Reduce the radar's 'Dead Zone'.
-- Enhance radar operation security.
-- Improve immunity to external radiation.
+Let a particular “range sector (±70⁰) be divided into 14 sections of 10 deg each, 7 on each side...
 
-## UWB Radar System Details
+[Rest of the mathematical content...]
 
-- **TWD-UWB radar operation**: The radar transmits a narrow RF pulse and samples echoes from different receiver terminals sequentially.
-- **Pulse width**: A pulse width of 700ps is planned.
-- **Effective sampling rate**: Planned effective sampling rate is 250ps (4 GSPS).
-- **Accurate phase measurement**: Cross range target positioning accuracy is dependent on accurate phase measurement.
-
-## Python Implementation & Visualization
+After acquiring the data, it is above equations, it is possible to plot the information graphically.
 
 ### Algorithm Flowchart
 An illustrative flowchart highlighting the primary steps involved in the processing algorithm.
@@ -52,20 +45,7 @@ Highlights the signal strength or intensity captured by the radar. This data is 
 A visual representation that indicates the intensity of detected objects in different regions. The warmer the color, the higher the object's presence or intensity.
 ![Heat Map](https://github.com/Yadnik1/Through-Wall-Detection/blob/main/images/Heat%20Map.PNG?raw=true)
 
-## Mathematical Background
+## Project Overview
 
-Let a particular “range sector (±70⁰) be divided into 14 sections of 10 deg each, 7 on each side. This forms the basis of signal processing where signals received by multiple receivers provide valuable information about target localization.
+This project focuses on implementing a UWB Radar system for imaging to obtain electromagnetic images from behind or through walls. The technique provides an electromagnetic "vision" behind walls to detect, count, and localize individuals inside a room or building.
 
-The in-depth mathematical framework involves the use of Path matrices, Reflectivity matrices, and received signal matrices. The core problem revolves around given a received signal matrix \(X\), how to determine the Reflectivity matrix \(B\). The solution to this is derived using Singular Value Decomposition (SVD) technique and other matrix operations.
-
-
-## Getting Started
-
-1. Please clone the Repository
-2. Run the main.py file
-3. In the GUI, please select the InputData - 29Mar20223a file
-4. Proceed by clicking on "Process Data"
-
-## Conclusion
-
-The UWB through-wall radar system holds significant potential for real-world applications, especially in defense sectors.
