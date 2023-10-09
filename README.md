@@ -11,11 +11,9 @@ Through-wall radar systems have grown immensely popular due to their potential a
 
 ## Mathematical Formulation
 
-Let a particular “range sector (±70⁰) be divided into 14 sections of 10 deg each, 7 on each side...
+Let a particular range sector (±70⁰) be divided into 14 sections of 10 deg each, 7 on each side. This forms the basis of signal processing where signals received by multiple receivers provide valuable information about target localization.
 
-[Rest of the mathematical content...]
-
-After acquiring the data, it is above equations, it is possible to plot the information graphically.
+The in-depth mathematical framework involves the use of Path matrices, Reflectivity matrices, and received signal matrices. The core problem revolves around given a received signal matrix \(X\), how to determine the Reflectivity matrix \(B\). The solution to this is derived using Singular Value Decomposition (SVD) technique and other matrix operations.
 
 ### Algorithm Flowchart
 An illustrative flowchart highlighting the primary steps involved in the processing algorithm.
