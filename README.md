@@ -21,13 +21,13 @@ This project focuses on implementing a UWB Radar system for imaging to obtain el
 3. **Effective sampling rate**: Planned effective sampling rate is 250ps (4 GSPS). It ensures that the echo isn't missed due to inappropriate sampling. 
 4. **Accurate phase measurement**: Cross range target positioning accuracy is dependent on accurate phase measurement.
 
-*For a detailed breakdown of the radar's operation and specifications, refer to the provided documentation.*
 
 ## Python Implementation & Visualization
 
 The Python codebase provided serves two primary functions:
 
 1. **Algorithm Implementation**: The UWB radar system's operations and pulse transmissions are algorithmically simulated. This ensures accurate detection and localization of targets behind walls.
+
    
 2. **Data Visualization**:
    - **Reflectivity Plots**: These plots display the reflection strength from different points. In through-wall detection, it helps in identifying the presence of objects or individuals by highlighting areas with high reflectivity.
@@ -38,11 +38,12 @@ These visualizations assist researchers and users in comprehending the system's 
 
 ## Getting Started
 
-*Here you might want to add steps on how to run the python code, any dependencies required, and other setup-related information.*
+1. Please clone the Repository
+2. Run the main.py file
+3. In the GUI please select the InputData - 29Mar20223a file
+4. Proceed by clicking on Process Data 
 
 ## Conclusion
 
 The UWB through-wall radar system holds significant potential for real-world applications. With the Python-based simulation and visualization tools provided, users can delve deep into its functionalities and improve upon its current capabilities.
 
-*Feel free to add sections on contributions, authors, acknowledgements, etc. as per your project's needs.*
-c
